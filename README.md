@@ -86,10 +86,10 @@ Estabelecer um canal de comunicação online para disponibilizar o agendamento e
     * offline com os clientes (e-mail, ...)
 
 * **Acompanhamento**
-* Atualização do perfil e das necessidades dos clientes
-* Promover o agendamento de serviços
- * regulares (programados)
- * adicionais
+  * Atualização do perfil e das necessidades dos clientes
+  * Promover o agendamento de serviços
+    * regulares (programados)
+    * adicionais
 
 ### Recomendação
 Assegurar uma forma de recolher dos clientes recomendação sobre o(s) serviço(s) prestado(s)
