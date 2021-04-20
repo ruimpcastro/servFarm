@@ -11,11 +11,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node ./bin/www"
   },
   "dependencies": {
+    "cookie-parser": "~1.4.4",
     "core-js": "^3.6.5",
+    "debug": "~2.6.9",
     "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -34,7 +40,7 @@
     "eslint-plugin-vue": "^7.0.0",
     "prettier": "^2.2.1"
   },
-  "description": "Alpha app",
+  "description": "Site de venda de serviços de farmacias",
   "main": ".eslintrc.js",
   "repository": {
     "type": "git",
