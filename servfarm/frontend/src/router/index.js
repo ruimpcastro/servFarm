@@ -21,30 +21,30 @@ const routes = [
   {
     path: '/booking',
     name: 'Book',
-    component: () => import('..views/Booking.vue')
+    component: () => import('../views/Booking.vue')
   },
   // Plans & Pricing
   {
     path: '/plans-pricing',
     name: 'Plans',
-    component: () => import('..views/Plans.vue')
+    component: () => import('../views/Plans.vue')
   },
   // Patient Services
   {
     path: '/patient-service',
     name: 'Services',
-    component: () => import('..views/Services.vue')
+    component: () => import('../views/Services.vue')
   },
   // Contacts
   {
     path: '/login',
     name: 'Login',
-    component: () => import('..views/Login.vue')
+    component: () => import('../views/Login.vue')
   },
   {
     path: '/user',
     name: 'User',
-    component: () => import('..views/User.vue')
+    component: () => import('../views/User.vue')
   },
 ]
 
