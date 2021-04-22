@@ -5,8 +5,14 @@ const express = require('express')
 const app = express()
 const expressLayouts = require('express-ejs-layouts')
 
-
+//TODAS AS ROUTES
 const indexRouter = require('./routes/index')
+const clienteRouter = require('./routes/clientes')
+
+//USO DAS ROUTES
+app.use('/', indexRouter)
+app.use('/clientes', clienteRouter)
+
 
 
 //DB CONNECTION
@@ -28,6 +34,7 @@ app.use(expressLayouts)
 app.use(express.static('public'))
 
 
-app.use('/', indexRouter)
+
+
 
 app.listen(process.env.PORT || 3000)
