@@ -2,69 +2,66 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 
 const routes = [
-  // Not found
+  
+  // Admin page
   {
-    path: "/:catchAll(.*)",
-    name: 'NotFound',
-    component: () => import('../views/NotFound.vue')
+    path: '/:admin',
+    name: 'Admin',
+    component: () => import('../views/Admin.vue')
   },
-  // Home
+  // Home page
   {
     path: '/',
     name: 'Home',
     component: () => import('../views/Home.vue')
   },
-  // Shop
-  {
-    path: '/shop',
-    name: 'Shop',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Shop.vue')
-  },
-  // Booking
-  {
-    path: '/booking',
-    name: 'Book',
-    component: () => import('../views/Booking.vue')
-  },
-  // Plans & Pricing
-  {
-    path: '/plans-pricing',
-    name: 'Plans',
-    component: () => import('../views/Plans.vue')
-  },
-  // Patient Services
-  {
-    path: '/patient-service',
-    name: 'Services',
-    component: () => import('../views/Services.vue')
-  },
-    // Contact
-    {
-      path: '/contact',
-      name: 'Contact',
-      component: () => import('../views/Login.vue')
-    },
-  // Login
+  // Login page
   {
     path: '/login',
     name: 'Login',
     component: () => import('../views/Login.vue')
   },
-  // Register
+  // Not found page
+  {
+    path: "/:catchAll(.*)",
+    name: 'NotFound',
+    component: () => import('../views/NotFound.vue')
+  },
+  // Notifications page
+  {
+    path: "/notifications",
+    name: 'Notifications',
+    component: () => import('../views/Notifications.vue')
+  },
+  // Recommendations page
+  {
+    path: "/recommendation",
+    name: 'Recommendations',
+    component: () => import('../views/Recommendations.vue')
+  },
+  // Register page
   {
     path: '/register',
     name: 'Register',
-    component: () => import('../views/Register.vue')
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Register.vue')
   },
-  // User
+
+  // Patient Services page
+  {
+    path: '/patient-service',
+    name: 'Services',
+    component: () => import('../views/Services.vue')
+  },
+  // User page
   {
     path: '/user/:name',
     name: 'User',
     component: () => import('../views/User.vue')
   },
+
 ]
 
 const router = createRouter({

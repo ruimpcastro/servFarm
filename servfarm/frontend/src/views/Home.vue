@@ -5,7 +5,7 @@
       <ul>
         <li class="product-list">
           <img src="" alt="">
-          Im a product
+          <p>Im a product</p>
           <span class="euro">85</span>,<span class="cent">00</span>€
         </li>
       </ul>
