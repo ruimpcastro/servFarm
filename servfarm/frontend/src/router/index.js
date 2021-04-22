@@ -35,12 +35,19 @@ const routes = [
     name: 'Services',
     component: () => import('../views/Services.vue')
   },
-  // Contacts
+    // Contact
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: () => import('../views/Login.vue')
+    },
+  // Login
   {
     path: '/login',
     name: 'Login',
     component: () => import('../views/Login.vue')
   },
+  // User
   {
     path: '/user',
     name: 'User',
