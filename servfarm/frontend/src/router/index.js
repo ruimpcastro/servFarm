@@ -1,12 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+
 
 const routes = [
-// Home
+  // Not found
+  {
+    path: "/:catchAll(.*)",
+    name: 'NotFound',
+    component: () => import('../views/NotFound.vue')
+  },
+  // Home
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import('../views/Home.vue')
   },
   // Shop
   {

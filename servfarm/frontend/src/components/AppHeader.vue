@@ -6,7 +6,7 @@
       <router-link :to="{ name: 'Home' }">Home</router-link>
       <router-link :to="{ name: 'Shop' }">Shop</router-link>
       <router-link :to="{ name: 'Book' }">Book Online</router-link>
-      <router-link :to="{ name: 'Plans' }">Plans & Pricing</router-link>
+      <router-link :to="{ name: 'Plans' }">Plans and Pricing</router-link>
       <router-link :to="{ name: 'Services' }">Patient Services</router-link>
       <router-link :to="{ name: 'Contact' }">Contact</router-link>
       <router-link :to="{ name: 'Login' }">Login</router-link>
