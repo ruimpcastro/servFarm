@@ -1,5 +1,5 @@
 <template>
-  <div class="Structure">
+  <div class="page-structure">
     <h1 id="intro">Hi, We're Farmácia Online São Miguel</h1>
     <div class="product">
       <ul>
