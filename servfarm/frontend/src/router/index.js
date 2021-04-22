@@ -49,7 +49,7 @@ const routes = [
   },
   // User
   {
-    path: '/user',
+    path: '/user/:name',
     name: 'User',
     component: () => import('../views/User.vue')
   },

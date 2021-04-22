@@ -1,7 +1,59 @@
 <template>
-  <div id="home">
-
+  <div class="Structure">
+    <h1 id="intro">Hi, We're Farmácia Online São Miguel</h1>
+    <div class="product">
+      <ul>
+        <li class="product-list">
+          <img src="" alt="">
+          Im a product
+          <span class="euro">85</span>,<span class="cent">00</span>€
+        </li>
+      </ul>
+    </div>
+    
+    <div id="description">
+      <h3 id="description-title">A Pharmacy for everyone</h3>
+      <h4 id="description-subtitle">Responsible Healing</h4>
+      <p class="description-text">
+        We care about the well-being of 
+        each customer who walks through our doors. 
+        That’s s why we’ve dedicated so much time
+        to ensuring we stock the widest range of medical products,
+        offer the highest quality health services,
+        and retain the best staff possible.
+        </p>
+        <p class="description-text">
+        As a middleman between your doctor’s prescriptions and
+        your own well being, we strive to provide personalized
+        and professional attention, as well as medication
+        management protocols that inspire customers to seek out
+        the medications and advice they need in order to get better.
+        Trust our Pharmacy to provide you with the care you deserve.
+        </p>
+    </div>
+    <div id="about">
+      <h3 id="about-title"></h3>
+      <h4 id="about-subtitle"></h4>
+      <ul id="about-text">
+        <li>Mon-Fri: 9am - 6pm</li>
+        <li>Sat: 10am - 2am</li>
+        <li>Sun: Closed</li>
+      </ul>
+    </div>
+    <!-- Eventos e calendário para utilizadores autenticados -->
+    <div id="btn-agenda">
+      <button class="agenda">Check agenda</button>
+      <button class="agenda">Mark an appointment</button>
+    </div>
+    
+    <div id="services">
+      <ul id="service-container">
+        <li class="service-box"></li>
+      </ul>
+    </div>
   </div>
+
+  
 </template>
 
 <script>
