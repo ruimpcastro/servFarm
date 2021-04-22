@@ -9,7 +9,8 @@
       <router-link :to="{ name: 'Plans' }">Plans and Pricing</router-link>
       <router-link :to="{ name: 'Services' }">Patient Services</router-link>
       <router-link :to="{ name: 'Contact' }">Contact</router-link>
-      <router-link :to="{ name: 'Login' }">Login</router-link>
+      <router-link :to="{ name: 'Login' }">Sign In</router-link>
+      <router-link :to="{ name: 'Register'}">Register</router-link>
     </nav>
   </div>
 </div>

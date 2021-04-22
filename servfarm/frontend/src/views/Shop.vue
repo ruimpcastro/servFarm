@@ -7,7 +7,7 @@
         </ul>
       </div>
 
-      <h3 id="shop-category">Artigo A</h3>
+      <h3 id="shop-category">Artigo B</h3>
       <div>
         <ul id="product-grid">
           <li class="product-grid-list"></li>
