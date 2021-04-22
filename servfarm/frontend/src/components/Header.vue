@@ -7,7 +7,6 @@
       <router-link>Shop</router-link>
       <router-link>Book Online</router-link>
       <router-link>Plans & Pricing</router-link>
-      <router-link>Menus</router-link>
       <router-link>Patient Services</router-link>
       <router-link>Contact</router-link>
       <router-link>Login</router-link>
