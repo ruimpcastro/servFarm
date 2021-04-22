@@ -1,4 +1,4 @@
-# servfarm
+# frontend
 
 ## Project setup
 ```
