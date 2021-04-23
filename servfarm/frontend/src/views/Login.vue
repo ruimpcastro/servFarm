@@ -1,17 +1,15 @@
 <template>
+    <div id="imagem1">
     <div id="login">
       <div>
-        <img
-        id = "imagem1"
-  src="https://www.gettyimages.pt/gi-resources/images/500px/983794168.jpg"
-  alt="Passarim"
-  class="center"
-  >
+        <div id="titulo">
         <h1>Login</h1>
+        </div>
         <input type="text" name="username" v-model="input.username" placeholder="Username" />
         <input type="password" name="password" v-model="input.password" placeholder="Password" />
         <button type="button" v-on:click="login()">Login</button>
       </div>
+    </div>
     </div>
 </template>
 
@@ -44,17 +42,31 @@
 </script>
 
 <style scoped>
+    #titulo {
+        color: white
+     }  
     #login {
         width: 500px;
-        border: 1px solid #CCCCCC;
-        background-color: #FFFFFF;
+        border: 1px solid #ffffff00;
+        background-color: #ffffff00;
+        display: block;
         margin: auto;
-        margin-top: 200px;
-        padding: 20px;
+        text-align: center;
+        padding: 70px 0;
+        left: 50%;
+        top: 50%;
+        margin-left: -25%;
+        position: absolute;
+        margin-top: -25%;
+        
+        
     }
     #imagem1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  background-image: url("https://www.gettyimages.pt/gi-resources/images/500px/983794168.jpg");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  
 }
 </style>
