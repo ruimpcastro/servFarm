@@ -9,7 +9,7 @@
             </div>
                 <input type="text" name="username" v-model="input.username" placeholder="Username" />
                 <input type="password" name="password" v-model="input.password" placeholder="Password" />
-                <button type="button" v-on:click="login()">Login</button>
+                <button id="login-button" type="button" v-on:click="login()">Login</button>
       </div>
     </div>
 </template>
@@ -48,7 +48,13 @@
      }
     #subtitulo {
         color:#2A8C73;
-    }  
+    } 
+    #login-button {
+       color:white;
+       width: 100px;
+       padding-top: 2.5px;  
+       padding-bottom: 2.5px;
+    } 
     .login {
         display: block;
         margin: auto;
