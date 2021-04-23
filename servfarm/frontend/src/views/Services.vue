@@ -1,30 +1,16 @@
 <template>
   <div class="page-structure">
-    <div id="btn-agenda">
-      <button class="agenda">Agendar Serviços</button>
-    </div>
-      <h3 id="shop-category">Serviço de categoria A</h3>
-      <div>
-        <ul id="product-grid">
-          <li class="product-grid-list">
-            <img src="https://scontent.fpdl2-1.fna.fbcdn.net/v/t1.6435-9/43398194_1979459135452791_9198413573875826688_n.jpg?_nc_cat=102&_nc_map=test-rt&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=ATBJI_Eg1_EAX88xJrj&_nc_ht=scontent.fpdl2-1.fna&oh=eb538c474e8d08e09fc6c38129e0abfc&oe=60A747BE" alt="">
-            <p>Artigo 1</p>
-            <span class="euro">85</span>,<span class="cent">00</span>€
-          </li>
-        </ul>
-      </div>
-
-      <h3 id="shop-category">Serviço de categoria B</h3>
-      <div>
-        <ul id="product-grid">
-          <li class="product-grid-list">
-            <img src="https://scontent.fpdl2-1.fna.fbcdn.net/v/t31.18172-8/13735091_1652297098422732_3338077844569668509_o.jpg?_nc_cat=107&_nc_map=test-rt&ccb=1-3&_nc_sid=a9b1d2&_nc_ohc=mnZuHdS3BTwAX_TD1mX&_nc_ht=scontent.fpdl2-1.fna&oh=3d78adec513a511f5d62629e71592001&oe=60A5D732" alt="">
-            <p>Artigo 1</p>
-            <span class="euro">85</span>,<span class="cent">00</span>€
-          </li>
-        </ul>
-      </div>
+    <div>
+      <div class="card">
+        <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Glucose test" style="width:100%">
+        <h1>Glucose test</h1>
+        <p class="price">2.00 euros</p>
+        <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+        <p><button>Schedule service</button></p>
+      </div>   
   </div>
+ </div>
+
 </template>
 
 <script>
@@ -34,5 +20,36 @@ export default {
 </script>
 
 <style>
+#sobre-serviço{
+  text-align:left;
+  margin-left: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
 
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
 </style>

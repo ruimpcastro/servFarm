@@ -54,7 +54,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Register.vue')
   },
 
-    // Patient Services page
+    // Single service page
     {
       path: '/service/:serv',
       name: 'ServicePage',
