@@ -9,6 +9,11 @@ const routes = [
     name: 'Admin',
     component: () => import('../views/Admin.vue')
   },
+  {
+    path: '/checkout',
+    name: 'Checkout',
+    component: () => import('../views/Checkout.vue')
+  },
   // Home page
   {
     path: '/',
@@ -49,6 +54,12 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Register.vue')
   },
 
+    // Patient Services page
+    {
+      path: '/service/:serv',
+      name: 'ServicePage',
+      component: () => import('../views/ServicePage.vue')
+    },
   // Patient Services page
   {
     path: '/patient-service',
