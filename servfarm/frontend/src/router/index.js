@@ -49,6 +49,12 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Register.vue')
   },
 
+    // Patient Services page
+    {
+      path: '/service/:serv',
+      name: 'ServicePage',
+      component: () => import('../views/ServicePage.vue')
+    },
   // Patient Services page
   {
     path: '/patient-service',
