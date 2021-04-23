@@ -1,15 +1,16 @@
 <template>
-    <div id="imagem1">
-    <div id="login">
+    <div class="login">
       <div>
         <div id="titulo">
-        <h1>Login</h1>
+        <h1>Sign Up</h1>
         </div>
-        <input type="text" name="username" v-model="input.username" placeholder="Username" />
-        <input type="password" name="password" v-model="input.password" placeholder="Password" />
-        <button type="button" v-on:click="login()">Login</button>
+            <div id="subtitulo">
+            <h2>Already a member? Log In.</h2>
+            </div>
+                <input type="text" name="username" v-model="input.username" placeholder="Username" />
+                <input type="password" name="password" v-model="input.password" placeholder="Password" />
+                <button type="button" v-on:click="login()">Login</button>
       </div>
-    </div>
     </div>
 </template>
 
@@ -43,24 +44,15 @@
 
 <style scoped>
     #titulo {
-        color: white;
-     }  
-    #login {
-        border: 1px solid #ffffff;
-        background-color: #0b9c7860;
-        border-radius: 25px;
-        display: fixed;
+        color:#2A8C73;
+     }
+    #subtitulo {
+        color:#2A8C73;
+    }  
+    .login {
+        display: block;
         margin: auto;
         text-align: center;
-        padding: 70px 0;
+        padding: 200px;
     }
-    #imagem1 {
-  background-image: url("https://www.thebalancecareers.com/thmb/MeOkHuQyQvRybGXkqnZ2X-DLXDE=/1500x844/smart/filters:no_upscale()/Pharmacist-56872aae3df78ccc1507fb74.jpg");
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  border: 1px solid #ffffff; /* image border color */
-  border-radius: 25px; /*espessura da borda da imagem */
-}
 </style>
