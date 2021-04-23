@@ -1,0 +1,41 @@
+:root {
+  --background-col: rgb(255, 255, 255);
+  --font-color: #2A8C73;
+  --hover-color: #8fa59f;
+  background-color: var(--background-col);
+  color: var(--font-color);
+  font-size: 1rem;
+  list-style: none;
+  font-weight: 600;
+  text-align: left;
+}
+
+
+#app {
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: var(--font-color);
+  
+}
+button {
+  font-weight: 600;
+  transition-duration: 0.2s;
+  border-style: solid;
+  border-color: var(--font-color);
+  background-color: var(--font-color);
+  color: var(--background-col);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover{
+  background-color: var(--hover-color);
+}
