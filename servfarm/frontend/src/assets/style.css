@@ -10,12 +10,15 @@
   text-align: left;
 }
 
+body {
+  margin: 0px;
+}
+
 
 #app {
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 a:-webkit-any-link {
@@ -23,11 +26,12 @@ a:-webkit-any-link {
   color: var(--font-color);
   
 }
+
+/* BUTTONS */
 button {
   font-weight: 600;
   transition-duration: 0.1s;
   border-style: solid;
-  margin: 10px 15px;
   border-color: var(--font-color);
   background-color: var(--font-color);
   color: var(--background-col);
@@ -40,4 +44,40 @@ button {
 button:hover{
   background-color: var(--hover-color);
   
+}
+
+/* HEADER STYLE */
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#title {
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+#head-nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: var(--background-col);
+  margin: 0 0 20px 0;
+  
+}
+#head-nav {
+  float: center;
+}
+#navbar {
+  display: flex;
+  border-top: solid 1px var(--font-color);
+  padding: 14px 16px;
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navbar-link {
+  margin: 0 50px;
 }
