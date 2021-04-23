@@ -5,7 +5,7 @@
         <h1>Sign Up</h1>
         </div>
             <div id="subtitulo">
-            <h2>Already a member? Log In.</h2>
+            <h2>Not a member? <router-link :to="{ name: 'Register'}">Register.</router-link></h2>
             </div>
                 <input type="text" name="username" v-model="input.username" placeholder="Username" />
                 <input type="password" name="password" v-model="input.password" placeholder="Password" />
