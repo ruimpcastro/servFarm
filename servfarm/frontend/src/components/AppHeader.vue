@@ -10,8 +10,7 @@
       <router-link :to="{ name: 'Notifications'}">Notifications </router-link>
       <router-link :to="{ name: 'Recommendations' }">Recommendation </router-link>
       <router-link :to="{ name: 'Login' }">Login </router-link>
-      <router-link :to="{ name: 'Register'}">Register </router-link>
-      <!-- Missing User and Admin -->
+      <!-- Missing User, Admin and Services -->
     </nav>
   </div>
 </div>
