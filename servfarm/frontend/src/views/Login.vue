@@ -43,30 +43,24 @@
 
 <style scoped>
     #titulo {
-        color: white
+        color: white;
      }  
     #login {
-        width: 500px;
-        border: 1px solid #ffffff00;
-        background-color: #ffffff00;
-        display: block;
+        border: 1px solid #ffffff;
+        background-color: #0b9c7860;
+        border-radius: 25px;
+        display: fixed;
         margin: auto;
         text-align: center;
         padding: 70px 0;
-        left: 50%;
-        top: 50%;
-        margin-left: -25%;
-        position: absolute;
-        margin-top: -25%;
-        
-        
     }
     #imagem1 {
-  background-image: url("https://www.gettyimages.pt/gi-resources/images/500px/983794168.jpg");
+  background-image: url("https://www.thebalancecareers.com/thmb/MeOkHuQyQvRybGXkqnZ2X-DLXDE=/1500x844/smart/filters:no_upscale()/Pharmacist-56872aae3df78ccc1507fb74.jpg");
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  
+  border: 1px solid #ffffff; /* image border color */
+  border-radius: 25px; /*espessura da borda da imagem */
 }
 </style>
