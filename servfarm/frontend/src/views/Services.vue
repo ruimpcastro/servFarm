@@ -257,6 +257,8 @@ export default {
 .products {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .product-card {

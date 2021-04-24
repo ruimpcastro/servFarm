@@ -251,3 +251,16 @@ button:hover{
 .text-input {
   width: 50%;
 }
+
+/* REGISTER */
+.form-style {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 240px;
+}
+
+.text-input-register {
+  margin-bottom: 20px;
+  padding: 7px 10px;
+  align-self: auto;
+}
