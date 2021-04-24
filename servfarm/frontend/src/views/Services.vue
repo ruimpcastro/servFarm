@@ -1,15 +1,81 @@
 <template>
   <div class="page-structure">
-    <div>
-      <div class="card">
-        <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Glucose test" style="width:100%">
-        <h1>Glucose test</h1>
-        <p class="price">2.00 euros</p>
-        <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
-        <p><button>Schedule service</button></p>
-      </div>   
+    <div class="grid-container">
+      
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Manipulated drugs" style="width:100%">
+          <h2>Manipulated drugs</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div>   
+      
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Administration of vaccines and injectables" style="width:100%">
+          <h2>Administration of vaccines and injectables</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div>   
+      
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Weight, height and BMI" style="width:100%">
+          <h2>Weight, height and BMI</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div>   
+
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Blood glucose determination" style="width:100%">
+          <h2>Blood glucose determination</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div>  
+
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Blood pressure measurement" style="width:100%">
+          <h2>Blood pressure measurement</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div> 
+
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Cholesterol assessment" style="width:100%">
+          <h2>Cholesterol assessment</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div> 
+
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Pharmaco-therapeutic follow-up" style="width:100%">
+          <h2>Pharmaco-therapeutic follow-up</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div> 
+
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Pregnancy tests" style="width:100%">
+          <h2>Pregnancy tests</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div> 
+
+        <div class="card">
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Expert advice on dermocosmetics (face, body and hair)" style="width:100%">
+          <h2>Expert advice on dermocosmetics (face, body and hair)</h2>
+          <p class="price">2.00 euros</p>
+          <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
+          <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+        </div> 
+
+    </div>
   </div>
- </div>
 
 </template>
 
@@ -20,7 +86,22 @@ export default {
 </script>
 
 <style>
-#sobre-serviço{
+.sem-espaço{
+      margin-block-end: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.grid-container > div {
+  text-align: center;
+}
+
+#sobre-serviço {
   text-align:left;
   margin-left: 10px;
 }

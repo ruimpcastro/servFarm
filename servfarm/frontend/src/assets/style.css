@@ -27,7 +27,6 @@ button {
   font-weight: 600;
   transition-duration: 0.1s;
   border-style: solid;
-  margin: 10px 15px;
   border-color: var(--font-color);
   background-color: var(--font-color);
   color: var(--background-col);

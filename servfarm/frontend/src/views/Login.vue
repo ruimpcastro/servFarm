@@ -52,6 +52,7 @@
     #login-button {
        color:white;
        width: 100px;
+       margin: 0 10px;
        padding-top: 2.5px;  
        padding-bottom: 2.5px;
     } 

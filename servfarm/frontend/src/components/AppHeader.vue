@@ -5,10 +5,10 @@
   </div>
   <div id="head-nav">
     <nav id="navbar">
-      <router-link :to="{ name: 'Home' }">Home </router-link>
-      <router-link :to="{ name: 'Services' }">Services </router-link>
-      <router-link :to="{ name: 'Notifications'}">Notifications </router-link>
-      <router-link :to="{ name: 'Recommendations' }">Recommendation </router-link>
+      <router-link :to="{ name: 'Home' }">Home</router-link>
+      <router-link :to="{ name: 'Services' }">Services</router-link>
+      <router-link :to="{ name: 'Notifications'}">Notifications</router-link>
+      <router-link :to="{ name: 'Recommendations' }">Recommendation</router-link>
       <router-link :to="{ name: 'Login' }">Sign up</router-link>
       <!-- Missing User, Admin and Services -->
     </nav>
