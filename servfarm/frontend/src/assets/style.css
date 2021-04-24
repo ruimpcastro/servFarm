@@ -184,3 +184,24 @@ button:hover{
   min-width: 220px;
   max-width: 250px;
 }
+
+/* APPFOOTER */
+#footer {
+  display: flex;
+  justify-content: center;
+
+}
+
+#footer-style {
+  padding: 30px 50px 40px 50px;
+  text-align: center;
+  background-color: var(--font-color);
+  color: var(--background-col);
+  border-color: var(--hover-color);
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 42px 0 0px 0;
+}
