@@ -1,15 +1,65 @@
 <template>
-  <div class="page-structure">
-      
-  </div>
+    <div class="login">
+      <div>
+        <div id="titulo">
+        <h1>Sign Up</h1>
+        </div>
+            <div id="subtitulo">
+            <h2>Not a member? <router-link :to="{ name: 'Register'}">Register.</router-link></h2>
+            </div>
+                <input type="text" name="username" v-model="input.username" placeholder="Username" />
+                <input type="password" name="password" v-model="input.password" placeholder="Password" />
+                <button id="login-button" type="button" v-on:click="login()">Login</button>
+      </div>
+    </div>
 </template>
 
 <script>
-export default {
-
-}
+    export default {
+        name: 'Login',
+        data() {
+            return {
+                input: {
+                    username: "",
+                    password: ""
+                }
+            }
+        },
+        methods: {
+            login() {
+                if(this.input.username != "" && this.input.password != "") {
+                    if(this.input.username == this.$parent.mockAccount.username && this.input.password == this.$parent.mockAccount.password) {
+                        this.$emit("authenticated", true);
+                        this.$router.replace({ name: "secure" });
+                    } else {
+                        console.log("The username and / or password is incorrect");
+                    }
+                } else {
+                    console.log("A username and password must be present");
+                }
+            }
+        }
+    }
 </script>
 
-<style>
-
+<style scoped>
+    #titulo {
+        color:#2A8C73;
+     }
+    #subtitulo {
+        color:#2A8C73;
+    } 
+    #login-button {
+       color:white;
+       width: 100px;
+       margin: 0 10px;
+       padding-top: 2.5px;  
+       padding-bottom: 2.5px;
+    } 
+    .login {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding: 200px;
+    }
 </style>
