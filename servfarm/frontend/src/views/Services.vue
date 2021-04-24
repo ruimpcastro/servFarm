@@ -204,6 +204,7 @@ export default {
 </script>
 
 <style>
+
 /* ---------------Overlay tool-------------------------------------*/
 .tooltip {
   position: relative;
