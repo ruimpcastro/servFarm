@@ -24,9 +24,11 @@ body {
 a:-webkit-any-link {
   text-decoration: none;
   color: var(--font-color);
-  
 }
 
+a:-webkit-any-link:hover {
+  text-decoration: underline;
+}
 /* BUTTONS */
 button {
   font-weight: 600;
@@ -88,16 +90,43 @@ button:hover{
   flex-direction: column;
 }
 
+#home-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+#home-size {
+  width: 80%;
+}
+
 #intro {
   font-size: 2.5rem;
+  text-align: center;
+}
+
+#intro-img {
+  display: block;
+  max-width: 850px;
+  margin: 25px auto;
+}
+
+.align-li {
+
+  padding: 0;
 }
 
 .product-list {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 #description {
+  margin-top: 50px;
+  padding: 0 0 25px 0;
   display: flex;
   flex-direction: column;
   background-color: var(--font-color);
@@ -106,10 +135,16 @@ button:hover{
 
 #description-title {
   font-size: 1.8rem;
+  text-align: center;
 }
 
 #description-subtitle {
   font-size: 1.5rem;
+  text-align: center;
+}
+
+.description-text {
+  padding: 0 10%;
 }
 
 #about {
@@ -122,6 +157,8 @@ button:hover{
   flex-direction: column;
   font-size: 1.7rem;
   margin-bottom: 0px;
+  text-align: center;
+  justify-content: center;
 }
 
 #about-subtitle {
@@ -129,18 +166,88 @@ button:hover{
   flex-direction: column;
   font-size: 1.5rem;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 #about-text {
   list-style: none;
-  padding: 0;
+  margin: 5px auto 25px auto;
 }
 
 #btn-agenda {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .agenda {
+  padding: 20px 40px;
   margin: 0 20px;
+  min-width: 220px;
+  max-width: 250px;
+}
+
+/* APPFOOTER */
+#footer {
+  display: flex;
+  justify-content: center;
+
+}
+
+#footer-style {
+  padding: 30px 50px 40px 50px;
+  text-align: center;
+  background-color: var(--font-color);
+  color: var(--background-col);
+  border-color: var(--hover-color);
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 42px 0 0px 0;
+}
+
+/* LOGIN */
+#login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px;
+}
+
+#titulo-login {
+  color: var(--font-color);
+  font-size: 2rem;
+}
+#subtitulo-login {
+  color:var(--font-color);
+  font-size: 1.2rem;
+} 
+#login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.login-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.label-style {
+  width: 10%;
+  justify-content: center;
+}
+
+.text-input-login {
+  margin-bottom: 20px;
+  padding: 7px 10px;
+  align-self: auto;
+} 
+
+.text-input {
+  width: 50%;
 }
