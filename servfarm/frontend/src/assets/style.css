@@ -24,9 +24,11 @@ body {
 a:-webkit-any-link {
   text-decoration: none;
   color: var(--font-color);
-  
 }
 
+a:-webkit-any-link:hover {
+  text-decoration: underline;
+}
 /* BUTTONS */
 button {
   font-weight: 600;
@@ -204,4 +206,48 @@ button:hover{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin: 42px 0 0px 0;
+}
+
+/* LOGIN */
+#login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px;
+}
+
+#titulo-login {
+  color: var(--font-color);
+  font-size: 2rem;
+}
+#subtitulo-login {
+  color:var(--font-color);
+  font-size: 1.2rem;
+} 
+#login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.login-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.label-style {
+  width: 10%;
+  justify-content: center;
+}
+
+.text-input-login {
+  margin-bottom: 20px;
+  padding: 7px 10px;
+  align-self: auto;
+} 
+
+.text-input {
+  width: 50%;
 }
