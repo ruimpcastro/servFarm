@@ -275,24 +275,7 @@ export default {
   text-align: center;
   font-size: auto;
 }
-@media (max-width: 920px) {
-  .product-card {
-    flex: 1 10%;
-  }
-}
-@media (max-width: 600px) {
-  .product-card {
-    flex: 1 10%;
-  }
-}
-@media (max-width: 480px) {
-  .product-filter {
-    flex-direction: column;
-  }
-  .sort {
-    align-self: flex-start;
-  }
-}
+
 .collection-sort button {
   border: none;
   outline: 0;
