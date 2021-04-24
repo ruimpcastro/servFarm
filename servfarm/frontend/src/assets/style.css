@@ -81,3 +81,66 @@ button:hover{
 .navbar-link {
   margin: 0 50px;
 }
+
+/* HARRY STYLES */
+.page-structure {
+  display: flex;
+  flex-direction: column;
+}
+
+#intro {
+  font-size: 2.5rem;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+}
+
+#description {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--font-color);
+  color: var(--background-col);
+}
+
+#description-title {
+  font-size: 1.8rem;
+}
+
+#description-subtitle {
+  font-size: 1.5rem;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7rem;
+  margin-bottom: 0px;
+}
+
+#about-subtitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#about-text {
+  list-style: none;
+  padding: 0;
+}
+
+#btn-agenda {
+  display: flex;
+  flex-direction: row;
+}
+
+.agenda {
+  margin: 0 20px;
+}

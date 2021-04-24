@@ -4,9 +4,11 @@
     <div class="product">
       <ul>
         <li class="product-list">
-          <img src="" alt="">
+          <img src="https://scontent.fpdl2-1.fna.fbcdn.net/v/t1.6435-9/78422932_10214557003308190_2702566720278626304_n.jpg?_nc_cat=100&_nc_map=test-rt&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=wAY2nFXeQj0AX_NbMmF&_nc_oc=AQn76OjjsZU2nglHIMofcnVugo2AcrLl03K-PQyeCteji8VevGw_Vx3wVGvDQTejB6sWkV21xj6T7QJzcDD9elba&_nc_ht=scontent.fpdl2-1.fna&oh=9e5ca41e3e0b2a10605199a0326f3077&oe=60A9DC76" alt="">
           <p>Im a product</p>
+          <div>
           <span class="euro">85</span>,<span class="cent">00</span>€
+          </div>
         </li>
       </ul>
     </div>
@@ -32,8 +34,8 @@
         </p>
     </div>
     <div id="about">
-      <h3 id="about-title"></h3>
-      <h4 id="about-subtitle"></h4>
+      <h3 id="about-title">Opening hours</h3>
+      <h4 id="about-subtitle">Come visit</h4>
       <ul id="about-text">
         <li>Mon-Fri: 9am - 6pm</li>
         <li>Sat: 10am - 2am</li>
@@ -44,12 +46,6 @@
     <div id="btn-agenda">
       <button class="agenda">Check agenda</button>
       <button class="agenda">Mark an appointment</button>
-    </div>
-    
-    <div id="services">
-      <ul id="service-container">
-        <li class="service-box"></li>
-      </ul>
     </div>
   </div>
 
