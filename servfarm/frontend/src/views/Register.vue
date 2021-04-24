@@ -1,28 +1,96 @@
 <template>
   <div class="page-structure">
-      <form class="form-style" action="">
+      <form
+      class="form-style"
+      @submit="submitForm"
+      >
         <label for="name">Name:</label>
-        <input class="text-input-register" type="text" placeholder="Insert name">
+        <input
+        id="name"
+        class="text-input-register"
+        type="text"
+        placeholder="Insert name"
+        v-model="user.name"
+        >
 
         <label for="email">E-mail:</label>
-        <input class="text-input-register" type="text" placeholder="E-mail">
+        <input
+        id="email"
+        class="text-input-register"
+        type="text"
+        placeholder="E-mail"
+        v-model="user.email"
+        >
 
         <label for="cellphone">Cellphone number:</label>
-        <input class="text-input-register" type="text" placeholder="Number">
+        <input
+        id="cellphone"
+        class="text-input-register"
+        type="text"
+        placeholder="Number"
+        v-model="user.cellphone"
+        >
         
         <label for="pword">Password:</label>
-        <input class="text-input-register" type="text" placeholder="Password">
+        <input
+        id="pword"
+        class="text-input-register"
+        type="text"
+        placeholder="Password"
+        v-model="user.pword.pword"
+        >
 
-        
+        <label for="confPword">Password:</label>
+        <input
+        id="confPword"
+        class="text-input-register"
+        type="text"
+        placeholder="Confirm password"
+        v-model="user.pword.confirm"
+        >
 
-        <button type="submit">Register</button>
+        <button @click="submitForm">Register</button>
       </form>
 
   </div>
 </template>
 
 <script>
-export default {
+import useValidate from '@vuelidate/core';
+import { required, email } from '@vuelidate/validators';
 
+export default {
+  data() {
+    return {
+      v$: useValidate(),
+      user: {
+        name: '',
+        email: '',
+        cellphone: '',
+        pword: {
+          pword: '',
+          confirm: '',
+        },
+      },
+    }
+  },
+  validations() {
+    return {
+      name: { required },
+      email: { required, email },
+      cellphone: { required },
+      pword: {
+        pword: { required },
+        confirm: { required },
+      },
+    }
+  },
+  methods: {
+    submitForm() {
+      alert('Form successfully submited');
+      console.log(this.v$);
+      
+    },
+  }
 }
 </script>
