@@ -11,8 +11,8 @@
         </div>   
       
         <div class="card">
-          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Administration of vaccines and injectables" style="width:100%">
-          <h4>Administration of vaccines and injectables</h4>
+          <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Vaccines and injectables" style="width:100%">
+          <h4>Vaccines and injectables</h4>
           <p class="price">19.99 euros</p>
           <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
           <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
@@ -20,7 +20,7 @@
       
         <div class="card">
           <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg" alt="Weight, height and BMI" style="width:100%">
-          <h4>Weight, height and BMI</h4>
+          <h4>Weight,height and BMI</h4>
           <p class="price">4.99 euros</p>
           <p id="sobre-serviço">A blood glucose test is used to find out if your blood sugar levels are in the healthy range. It is often used to help diagnose and monitor diabetes.</p>
           <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
@@ -107,6 +107,10 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;  
+}
+#sobre-serviço:hover {
+  overflow: visible;
+  white-space: normal;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
