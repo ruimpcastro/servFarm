@@ -102,6 +102,12 @@ button:hover{
 #home-size {
   width: 80%;
 }
+#home-size>.product-filler>.sort>.collection-sort>.products{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
 
 #intro {
   font-size: 2.5rem;
@@ -301,24 +307,12 @@ button:hover{
   opacity: 1;
 }
 /* -------------------Caracteristicas das product-imagens-------------*/
-.product-filter {
-  display: flex;
-}
-.product-filter div {
-  flex-grow: 1;
-}
-.sort {
-  display: flex;
-}
-.collection-sort {
-  display: flex;
-  flex-direction: column;
-}
+
 .products {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .product-card {
