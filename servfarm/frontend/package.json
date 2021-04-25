@@ -11,7 +11,7 @@
   "homepage": "https://github.com/ruimpcastro/servFarm",
   "name": "servfarm",
   "description": "Site de venda de serviços de farmacias",
-  "version": "0.1.0",
+  "version": "0.7.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
