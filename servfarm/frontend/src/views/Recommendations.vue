@@ -38,6 +38,7 @@ export default {
   padding-left: 20px;
   padding-right: 20px;
   transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 </style>

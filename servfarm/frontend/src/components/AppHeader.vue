@@ -7,7 +7,7 @@
       <router-link class="navbar-link" :to="{ name: 'Home' }">Home</router-link>
       <router-link class="navbar-link" :to="{ name: 'Services' }">Services</router-link>
       <router-link class="navbar-link" :to="{ name: 'Notifications'}">Notifications</router-link>
-      <router-link class="navbar-link" :to="{ name: 'Recommendations' }">Recommendation</router-link>
+      <router-link class="navbar-link" :to="{ name: 'Recommendations' }">Recommendations</router-link>
       <router-link class="navbar-link" :to="{ name: 'Login' }">Sign up</router-link>
       <!-- Missing User, Admin and Services -->
     </nav>
