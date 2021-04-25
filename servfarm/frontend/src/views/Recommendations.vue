@@ -4,7 +4,7 @@
         <img src="https://images.impresa.pt/sicnot/2021-03-02-vacina-covid--5-.jpg/original/mw-860" alt="Nature" class="center">
         <div class="center">
           <div class="text-block">
-            <h4>Do you live in São Miguel and want to get vaccinated? Check the link below!</h4>
+            <p>Do you live in São Miguel and want to get vaccinated? Check the link below!</p>
             <p><a href="https://vacinacao-covid19.azores.gov.pt/">https://vacinacao-covid19.azores.gov.pt/</a></p>
           </div>
         </div>
@@ -24,7 +24,8 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 .container {
   position: relative;
