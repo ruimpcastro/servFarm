@@ -1,7 +1,7 @@
 <template>
   <div class="page-structure">
     <div class="container">
-      <img src="https://images.impresa.pt/sicnot/2021-03-02-vacina-covid--5-.jpg/original/mw-860" alt="Nature" style="width:60%;">
+      <img src="https://images.impresa.pt/sicnot/2021-03-02-vacina-covid--5-.jpg/original/mw-860" alt="Nature" style="width:63%;">
       <div class="centered">
         <p>Do you live in São Miguel and want to get vaccinated? Check the link below!</p>
         <p><a href="https://vacinacao-covid19.azores.gov.pt/">https://vacinacao-covid19.azores.gov.pt/</a></p>
