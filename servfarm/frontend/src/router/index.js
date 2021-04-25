@@ -72,7 +72,12 @@ const routes = [
     name: 'User',
     component: () => import('../views/User.vue')
   },
-
+  // Chatbot
+  // {
+  //   path: '/chat',
+  //   name: 'Chatbot',
+  //   component: () => import('../components/Chatbot.vue')
+  // }
 ]
 
 const router = createRouter({
