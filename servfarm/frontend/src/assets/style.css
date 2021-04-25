@@ -85,6 +85,18 @@ button:hover{
   margin: 0 50px;
 }
 
+#chatbot-btn {
+  position: fixed;
+  border-radius: 100%;
+  bottom: 5%;
+  right: 5%;
+  min-width: 80px;
+  min-height: 80px;
+  border-style: dotted;
+  border-color: var(--background-col);
+  padding: 0;
+}
+
 /* HARRY STYLES */
 .page-structure {
   display: flex;
