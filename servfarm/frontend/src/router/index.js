@@ -72,6 +72,10 @@ const routes = [
     name: 'User',
     component: () => import('../views/User.vue')
   },
+  // {
+  //   path: '/books-show',
+  //   component: () => import('../backend/views/books/show.ejs')
+  // }
 ]
 
 const router = createRouter({

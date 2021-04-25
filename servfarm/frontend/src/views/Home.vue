@@ -108,8 +108,12 @@
       </div>
       <!-- Eventos e calendário para utilizadores autenticados -->
       <div id="btn-agenda">
-        <button class="agenda">Check agenda</button>
-        <button class="agenda">Mark an appointment</button>
+        <a href="https://www.reservio.com/login/" target="_blank">
+          <button class="agenda">Check agenda</button>
+        </a>
+        <a href="https://www.reservio.com" target="_blank">
+          <button class="agenda">Mark an appointment</button>
+        </a>
         </div>
       </div>
     </div>
@@ -128,3 +132,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+a {
+  text-decoration: none;
+}
+</style>
