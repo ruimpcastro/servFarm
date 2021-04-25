@@ -35,7 +35,7 @@
         <input
         id="pword"
         class="text-input-register"
-        type="text"
+        type="password"
         placeholder="Password"
         v-model="user.pword.pword"
         >
@@ -44,7 +44,7 @@
         <input
         id="confPword"
         class="text-input-register"
-        type="text"
+        type="password"
         placeholder="Confirm password"
         v-model="user.pword.confirm"
         >
@@ -87,9 +87,12 @@ export default {
   },
   methods: {
     submitForm() {
-      alert('Form successfully submited');
+      this.v$.validate();
+      if(!this.v$.error){
       console.log(this.v$);
-      
+      } else {
+        alert('Form failed validation');
+      }
     },
   }
 }
