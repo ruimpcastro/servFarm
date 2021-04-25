@@ -95,6 +95,7 @@ button:hover{
   border-style: dotted;
   border-color: var(--background-col);
   padding: 0;
+  cursor: pointer;
 }
 
 /* HARRY STYLES */
