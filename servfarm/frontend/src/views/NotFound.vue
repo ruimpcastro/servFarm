@@ -1,6 +1,6 @@
 <template>
       <div class="page-structure">
-            <h1>NOT FOUND. QUERO É QUE TE FODAS</h1>
+            <h1>404 NOT FOUND</h1>
       </div>
 </template>
 
@@ -10,6 +10,9 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style scoped>
+      h1 {
+            display: flex;
+            justify-content: center;
+      }
+</style>>
