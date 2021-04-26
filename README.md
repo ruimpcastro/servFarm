@@ -62,6 +62,10 @@ Estabelecer um canal de comunicação online para disponibilizar o agendamento e
 * ...
 * [outros](https://www.getapp.com/p/sem/scheduling-software?t=Top%20Agenda%20Software&camp=adw_search&utm_content=g&utm_source=ps-google&utm_campaign=COM_EMEA_Desktop_BE-Scheduling&utm_medium=cpc&account_campaign_id=1486628099&account_adgroup_id=59010903513&ad_id=476089198060&utm_term=+agenda%20+on%20+line&matchtype=b&gclid=Cj0KCQiA4feBBhC9ARIsABp_nbVDr37tP54e4ZzVVYwX63eaxY6IHpiZjZSV3i3fuWS6kH8r2WM4aukaAjiNEALw_wcB)
 
+*https://app.reservio.com/?_gl=1*urohj5*_ga*NjY0MTI3OTcuMTYxNDk1MjYwOQ..*_ga_9GHQL8XHNK*MTYxOTQ0MDcwMy4zLjEuMTYxOTQ0NzQ0Ny41OQ..#/calendar/agendaWeek/today/0/0/0/0
+*Name: Farmácia Online
+*password: boasamigos123
+
 ### Aquisição de serviços
 * Processar pagamento do(s) serviço(s)
 * Associar a cada serviço:

@@ -1,15 +1,26 @@
 <template>
-    <div class="login">
+    <div id="login">
       <div>
-        <div id="titulo">
+        <div id="titulo-login">
         <h1>Sign Up</h1>
         </div>
-            <div id="subtitulo">
-            <h2>Not a member? <router-link :to="{ name: 'Register'}">Register.</router-link></h2>
+            <div id="subtitulo-login">
+                <h2>Not a member? <router-link :to="{ name: 'Register'}">Register.</router-link></h2>
             </div>
-                <input type="text" name="username" v-model="input.username" placeholder="Username" />
-                <input type="password" name="password" v-model="input.password" placeholder="Password" />
+            <div class="login-container">
+                <div class="login-row">
+                    <div class="label-style">
+                    <label for="username" class="label-style">Email</label>
+                    </div>
+                    <input id="username" class="text-input-login" type="text" name="username" v-model="input.username" placeholder="Username" />
+                </div>
+
+                <div class="login-row">
+                <label for="userpass" class="label-style">Password</label>
+                <input id="userpass" class="text-input-login" type="password" name="password" v-model="input.password" placeholder="Password" />
+                </div>
                 <button id="login-button" type="button" v-on:click="login()">Login</button>
+            </div>
       </div>
     </div>
 </template>
@@ -41,24 +52,3 @@
         }
     }
 </script>
-
-<style scoped>
-    #titulo {
-        color:#2A8C73;
-     }
-    #subtitulo {
-        color:#2A8C73;
-    } 
-    #login-button {
-       color:white;
-       width: 100px;
-       padding-top: 2.5px;  
-       padding-bottom: 2.5px;
-    } 
-    .login {
-        display: block;
-        margin: auto;
-        text-align: center;
-        padding: 200px;
-    }
-</style>
