@@ -4,7 +4,7 @@
   <%- include('../partials/deleteForm',
               { url: `/providers/${provider.id}` }) %>
 </div>
-<% if (booksByProvider.length > 0) { %>
-  <h2 class="page-header">Books By Provider</h2>
-  <%- include('../partials/bookGrid', { books: booksByProvider }) %>
+<% if (servicesByProvider.length > 0) { %>
+  <h2 class="page-header">Services By Provider</h2>
+  <%- include('../partials/bookGrid', { services: servicesByProvider }) %>
 <% } %>
