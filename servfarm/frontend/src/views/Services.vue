@@ -10,7 +10,7 @@
                 <img src="https://p1.piqsels.com/preview/193/127/591/weak-remedy-medicine-no-person-doctor-science-remedies.jpg">
                 <div class="product-info">
                   <p>Request manipulated drugs</p>
-                  <p>0.99 euros</p>
+                  <p>1 euros</p>
                   <div class="tooltip">Sobre
                     <span class="tooltiptext">
                       <p>
@@ -30,7 +30,14 @@
                       </p>
                     </span>
                   </div>
-                  <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                  <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=6abe1430-b32d-4d59-8190-8731be691b81&resourceId=85dc6b61-bd1e-4e18-a799-3f9b2340f10d"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
               </div>
             </div>   
@@ -40,7 +47,7 @@
                 <img src="https://www.adn.com/resizer/Y2Laudn_v5mwrpH0sLhThYX0sQU=/1200x0/cloudfront-us-east-1.images.arcpublishing.com/adn/PHGRIKHFJNDVTFXBC4VODYVO24.jpg">
                 <div class="product-info">
                   <p>Vaccines and injectables</p>
-                  <p>19.99 euros</p>
+                  <p>20 euros</p>
                   <div class="tooltip">Sobre
                     <span class="tooltiptext">
                       <p>
@@ -56,7 +63,14 @@
                       <p>- Intranasal route: administered into the nose.</p>
                     </span>
                   </div>
-                  <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                  <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=e602153b-8599-4a9b-8e13-e715cdf15750&resourceId=85dc6b61-bd1e-4e18-a799-3f9b2340f10d"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
               </div>
             </div>  
@@ -66,7 +80,7 @@
                 <img src="https://www.brunet.ca/globalassets/sante/conseils-sante/imc/imc-faites-en-votre-allie-big.jpg">
                 <div class="product-info">
                   <p>Weight,height and BMI</p>
-                  <p>4.99 euros</p>
+                  <p>5 euros</p>
                   <div class="tooltip">Sobre
                     <span class="tooltiptext">
                       <p>
@@ -87,7 +101,14 @@
                       </p>
                     </span>
                   </div>
-                  <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                  <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=e0538d29-2cae-4d97-bdfb-32e848da1377&resourceId=acd94ce3-7eb2-44fb-9827-bf35c4d3c583"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
               </div>
             </div>   
@@ -97,7 +118,7 @@
                 <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg">
                 <div class="product-info">
                   <p>Blood glucose determination</p>
-                  <p>1.99 euros</p>
+                  <p>2 euros</p>
                   <div class="tooltip">Sobre
                     <span class="tooltiptext">
                       <p>
@@ -112,7 +133,14 @@
                       </p>
                     </span>
                   </div>
-                  <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                  <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=4ea70eb3-671f-44be-b2e0-9645197c0b30&resourceId=acd94ce3-7eb2-44fb-9827-bf35c4d3c583"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
               </div>
             </div>  
@@ -122,7 +150,7 @@
                 <img src="https://onlinefirstaid.com/wp-content/uploads/2019/02/blood-pressure-1024x683.jpeg">
                 <div class="product-info">
                   <p>Blood pressure measurement</p>
-                  <p>1.99 euros</p>
+                  <p>2 euros</p>
                   <div class="tooltip">Sobre
                     <span class="tooltiptext">
                       <p>
@@ -137,7 +165,14 @@
                       </p>
                     </span>
                   </div>
-                    <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                    <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=02430071-1f69-4c0c-9579-ed32c49a6a37&resourceId=acd94ce3-7eb2-44fb-9827-bf35c4d3c583"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
               </div>
             </div> 
@@ -147,7 +182,7 @@
               <img src="https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2019/12/bloodTestLipoprotein-475986550-770x553-650x428.jpg">
               <div class="product-info">
                 <p>Cholesterol assessment</p>
-                <p>5.99 euros</p>
+                <p>6 euros</p>
                 <div class="tooltip">Sobre
                   <span class="tooltiptext">
                     <p>
@@ -164,7 +199,14 @@
                     <p>- LDL is called bad cholesterol and is responsible for transporting cholesterol from the liver to the arteries.</p>
                   </span>
                 </div>
-                <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=f01f66ed-42fe-43df-9796-7a7d6c29bd19&resourceId=a0077149-38bc-4401-9d22-78a89e701188"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
               </div>
             </div>
           </div> 
@@ -174,7 +216,7 @@
               <img src="https://propamed.com.br/wp-content/uploads/2018/09/Servicio-1aVisita.jpg">
               <div class="product-info">
                 <p>Pharmaco-therapeutic follow-up</p>
-                <p>14.99 euros</p>
+                <p>15 euros</p>
                 <div class="tooltip">Sobre
                   <span class="tooltiptext">
                     <p>
@@ -198,7 +240,14 @@
                     <p>The follow-up evaluation is the step in which actual results and outcomes from drug therapies are documented.</p>
                   </span>
                 </div>
-                <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=3ec0205b-90c1-46e3-a78f-f34a7eac4cdc&resourceId=a0077149-38bc-4401-9d22-78a89e701188"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
               </div>
             </div>
           </div> 
@@ -208,7 +257,7 @@
               <img src="https://scx2.b-cdn.net/gfx/news/2019/pregnancytest.jpg">
               <div class="product-info">
                 <p>Pregnancy tests</p>
-                <p>9.99 euros</p>
+                <p>10 euros</p>
                 <div class="tooltip">Sobre
                   <span class="tooltiptext">
                     <p>
@@ -234,7 +283,14 @@
                     </p>
                   </span>
                 </div>
-                  <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                  <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=84ac8ad1-0135-419b-a5d8-965fd27ea275&resourceId=484c1edc-8d0d-4bff-90af-c00479a061e8"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
             </div>
             </div>
           </div> 
@@ -244,7 +300,7 @@
               <img src="https://i.pinimg.com/736x/b5/4c/44/b54c4499aa0a538215524266fd4ed118.jpg">
               <div class="product-info">
                 <p>Expert advice on dermocosmetics</p>
-                <p>15.99 euros</p>
+                <p>16 euros</p>
                 <div class="tooltip">Sobre
                   <span class="tooltiptext">
                     <p>
@@ -262,7 +318,14 @@
                     <p>- Treat hair and nail disorders.</p>
                   </span>
                 </div>
-                <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=353738c3-9c84-46b8-b09a-d9d4a4f9836e&resourceId=484c1edc-8d0d-4bff-90af-c00479a061e8"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
               </div>    
             </div>
