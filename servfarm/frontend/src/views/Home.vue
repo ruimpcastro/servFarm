@@ -18,7 +18,7 @@
                     <img src="https://p1.piqsels.com/preview/193/127/591/weak-remedy-medicine-no-person-doctor-science-remedies.jpg">
                 <div class="product-info">
                     <p>Request manipulated drugs</p>
-                    <p>0.99 euros</p>
+                    <p>1 euros</p>
                     <div class="tooltip">Sobre
                       <span class="tooltiptext"><p>The manipulated products are drugs subject to medical prescription, prepared in a workshop pharmacy, under the responsibility of a pharmacist and respecting good manufacturing practices.
                                                 These medications have concentrations and presentations adapted to the user's needs, allowing greater adherence to therapy and, as a consequence, better treatment efficiency.</p>
@@ -26,7 +26,14 @@
                                                 <p>To be able to do a manipulation we always need the prior presentation of a medical prescription, whether delivered in person or sent by email (you can attach it in a photo or digital document format).</p>
                       </span>
                     </div>
-                      <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                      <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=6abe1430-b32d-4d59-8190-8731be691b81&resourceId=85dc6b61-bd1e-4e18-a799-3f9b2340f10d"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
                 </div>
               </div>   
@@ -36,7 +43,7 @@
                     <img src="https://www.adn.com/resizer/Y2Laudn_v5mwrpH0sLhThYX0sQU=/1200x0/cloudfront-us-east-1.images.arcpublishing.com/adn/PHGRIKHFJNDVTFXBC4VODYVO24.jpg">
                 <div class="product-info">
                     <p>Vaccines and injectables</p>
-                    <p>19.99 euros</p>
+                    <p>20 euros</p>
                     <div class="tooltip">Sobre
                       <span class="tooltiptext"><p>Each vaccine has a recommended administration route and site. This information is included in the manufacturer’s package insert for each vaccine. Deviation from the recommended route may reduce vaccine efficacy or increase local adverse reactions.</p>
                                                 <p>Vaccine administration routes include:</p>
@@ -47,7 +54,14 @@
                                                 <p>- Intranasal route: administered into the nose.</p>
                       </span>
                     </div>
-                      <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                      <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=e602153b-8599-4a9b-8e13-e715cdf15750&resourceId=85dc6b61-bd1e-4e18-a799-3f9b2340f10d"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
                 </div>
               </div>  
@@ -57,14 +71,21 @@
                     <img src="https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2018/06/iStock-491965869.jpg">
                 <div class="product-info">
                     <p>Blood glucose determination</p>
-                    <p>1.99 euros</p>
+                    <p>2 euros</p>
                     <div class="tooltip">Sobre
                       <span class="tooltiptext"><p>The glucose test, is done in order to check the amount of sugar in the blood, which is called glycemia, and is considered the main test to diagnose diabetes.</p>
                                                 <p>To perform the exam, the person must be fasting, so that the result is not influenced and the result can be a false positive for diabetes, for example. From the result of the exam, the doctor may
                                                   indicate readjustment of the diet, use of antidiabetic drugs, such as Metformin, for example, or even insulin.</p>
                       </span>
                     </div>
-                      <p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>
+                      <p>
+                    <button>
+                      <a 
+                        href="https://slendercookie.reservio.com/booking/business/service/resource/time?businessId=996a5eb2-29ce-4d67-aa64-5f20f3823ad9&serviceId=4ea70eb3-671f-44be-b2e0-9645197c0b30&resourceId=acd94ce3-7eb2-44fb-9827-bf35c4d3c583"
+                        target="__blank"
+                      >
+                  Schedule service</a></button></p>
+                  <!--<p class="sem-espaço"><button><router-link :to="{ name: 'Checkout' }">Schedule service</router-link></button></p>-->
                 </div>
                 </div>
               </div> 
@@ -101,17 +122,18 @@
         <h3 id="about-title">Opening hours</h3>
         <h4 id="about-subtitle">Come visit</h4>
         <ul id="about-text">
-          <li>Mon-Fri: 9am - 6pm</li>
+          <li>Mon - Fri: 9am - 6pm</li>
           <li>Sat: 10am - 2am</li>
           <li>Sun: Closed</li>
         </ul>
       </div>
       <!-- Eventos e calendário para utilizadores autenticados -->
       <div id="btn-agenda">
+        <!--
         <a href="https://www.reservio.com/login/" target="_blank">
           <button class="agenda">Check agenda</button>
-        </a>
-        <a href="https://www.reservio.com" target="_blank">
+        </a>-->
+        <a href="https://slendercookie.reservio.com" target="_blank">
           <button class="agenda">Mark an appointment</button>
         </a>
         </div>
