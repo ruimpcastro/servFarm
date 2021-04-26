@@ -1,0 +1,37 @@
+<div class="form-row">
+  <div class="form-item">
+    <label>Title</label>
+    <input type="text" name="title" value="<%= service.title %>">
+  </div>
+  <div class="form-item">
+    <label>Provider</label>
+    <select name="provider">
+      <% providers.forEach(provider => { %>
+        <% if (provider.id === service.provider) { %>
+          <option selected label="<%= provider.name %>" value="<%= provider.id %>">
+        <% } else { %>
+          <option label="<%= provider.name %>" value="<%= provider.id %>">
+        <% } %>
+      <% }) %>
+    </select>
+  </div>
+</div>
+
+<div class="form-row">
+  <div class="form-item">
+    <label>Publish Date</label>
+    <input type="date" name="publishDate"
+          value="<%= service.publishDate == null ? '' : service.publishDate.toISOString().split('T')[0] %>">
+  </div>
+</div>
+
+<div class="form-row">
+  <!-- <div class="form-item form-item-no-grow">
+    <label>Cover</label>
+    <input type="file" name="cover" class="service-cover filepond">
+  </div> -->
+  <div class="form-item">
+    <label>Description</label>
+    <textarea name="description"><%= service.description %></textarea>
+  </div>
+</div>

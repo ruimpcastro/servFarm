@@ -1,0 +1,10 @@
+<h2 class="page-header"><%= provider.name %></h2>
+<div class="btn-row">
+  <a class="btn btn-primary" href="/providers/<%= provider.id %>/edit">Edit</a>
+  <%- include('../partials/deleteForm',
+              { url: `/providers/${provider.id}` }) %>
+</div>
+<% if (booksByProvider.length > 0) { %>
+  <h2 class="page-header">Books By Provider</h2>
+  <%- include('../partials/bookGrid', { books: booksByProvider }) %>
+<% } %>
