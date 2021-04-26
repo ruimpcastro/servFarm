@@ -330,6 +330,7 @@ button:hover{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  margin: 0 13%;
 }
 
 .product-card {
