@@ -122,7 +122,7 @@
         <h3 id="about-title">Opening hours</h3>
         <h4 id="about-subtitle">Come visit</h4>
         <ul id="about-text">
-          <li>Mon-Fri: 9am - 6pm</li>
+          <li>Mon - Fri: 9am - 6pm</li>
           <li>Sat: 10am - 2am</li>
           <li>Sun: Closed</li>
         </ul>
